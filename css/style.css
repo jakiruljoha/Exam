@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*hearder start*/
+.header{
+     background-color: #121B2A;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    margin-top: 60px;
+    float: right;
+    width: 75%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    padding: 0 20px;
+    font-family: sans-serif;
+    /*font-size: 16px;*/
+    /*font-weight: 400;*/
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.menu ul li a:hover{
+    color: blue;
+}
+.menu ul li a:last-child{
+    padding-right: 0;
+}
+
+/*hearder end*/
+
+/*banner start*/
+.banner{
+    background-image: url(../images/blue_banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.b_content{
+    margin-top: 250px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+.b_content h1{
+     margin: 0 0;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.b_content h2{
+    margin: 0 0;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0076BA;
+    text-transform: capitalize;
+}
+.b_content p{
+    margin: 0 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 25PX;
+}
+.b_content button{
+    margin-top: 35px;
+    width: 220px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #595959;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.b_content button:hover{
+    background-color: white;
+    color: #0078BD;
+}
+
+/*banner end*/
+
+/*service start*/
+.service{
+    background-color: #121B2C;
+    overflow: hidden;
+}
+.item{
+    margin: 70px 0;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.item img{
+    float: left;
+    margin-right: 10px;
+}
+.item h1{
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #F0F0F0;
+    text-transform: capitalize;
+   
+}
+.item h2{
+    margin-top: -12px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #0079BC;
+    text-transform: capitalize;
+}
+.item p{
+    color: #F0F0F0;
+    text-transform: capitalize;
+}
+.item:last-child{
+    margin-right: 0;
+}
+
+/*service end*/
+
+
+/*service2 start*/
+.service2{
+    background-color: #040811;
+}
+.item2{
+    margin: 50px 0;
+    margin-right: 10px;
+    width: 30%;
+    float: left;
+}
+.item2 h1{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.item2 p{
+    font-family: sans-serif;
+   /* font-size: 16px;
+    font-weight: 400;*/
+    color: #B7B8BA;
+}
+.item2 h2{
+    margin-top: -15px;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0066A1;
+    text-transform: capitalize;
+}
+.item2 img{
+    float: left;
+    margin-right: 20px;
+}
+.item2 button{
+    margin-top: 15px;
+    width: 150px;
+    height: 55px;
+    float: left;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #595959;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.item2 button:hover{
+    background-color: white;
+    color: #0078BD;
+}
+/*service2 end*/
+
+/*footer start*/
+.footer{
+     background-color: #121B2A;
+}
+.blog_1{
+    float: left;
+    width: 60%;
+}
+.blog_1 ul{
+    float: left;
+}
+.blog_1 ul li{
+     list-style: none;
+    float: left;
+}
+.blog_1 ul li a{
+     padding: 0 40px;
+    font-family: sans-serif;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.blog_1 ul li a:last-child{
+    padding-left: 0;
+}
+.blog_1 ul li p{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.blog_2{
+    float: right;
+    width: 35%;
+}
+.blog_2 img{
+    width: 100%;
+}
+/*footer end*/
